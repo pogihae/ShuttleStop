@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gachon.algorithm.PlaceNameController">
+    <VBox prefHeight="144.0" prefWidth="600.0" style="-fx-background-color: #FF8C00;">
+        <Pane prefHeight="63.0" prefWidth="100.0">
+            <Label alignment="CENTER" layoutX="146.0" layoutY="34.0" prefHeight="41.0" prefWidth="295.0" text="Ladybug" textAlignment="CENTER">
+                <font>
+                    <Font name="Gadugi Bold" size="21.0" />
+                </font>
+            </Label>
+        </Pane>
+    </VBox>
+    <Pane prefHeight="80.0" prefWidth="600.0" />
+    <HBox prefHeight="44.0" prefWidth="600.0">
+        <Pane prefHeight="28.0" prefWidth="133.0" />
+        <TextField fx:id="placeNameField" prefHeight="40.0" prefWidth="241.0" />
+      <Pane prefHeight="44.0" prefWidth="13.0" />
+      <Button fx:id="findBtn" mnemonicParsing="false" prefHeight="41.0" prefWidth="52.0">
+         <graphic>
+              <ImageView fitHeight="31.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                  <Image url="@icon/searchicon.png" />
+              </ImageView>
+         </graphic>
+      </Button>
+    </HBox>
+</VBox>

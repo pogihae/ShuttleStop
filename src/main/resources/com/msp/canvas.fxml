@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gachon.algorithm.CanvasController">
+   <VBox fx:id="vBox" alignment="CENTER" prefHeight="500.0" prefWidth="120.0" style="-fx-background-color: #FF8C00;">
+      <Pane prefHeight="400.0" prefWidth="200.0" />
+      <Pane prefHeight="30.0" prefWidth="128.0" />
+      <Button fx:id="btnDone" mnemonicParsing="false" prefHeight="47.0" prefWidth="103.0" text="Done" />
+   </VBox>
+   <Group fx:id="grpCanvas">
+      <BorderPane fx:id="borderPane" prefHeight="496.0" prefWidth="505.0">
+         <top>
+            <Pane prefHeight="80.0" prefWidth="80.0" BorderPane.alignment="CENTER" />
+         </top>
+         <left>
+            <Pane prefHeight="80.0" prefWidth="80.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Pane prefHeight="80.0" prefWidth="80.0" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <Pane prefHeight="80.0" prefWidth="80.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </Group>
+</HBox>

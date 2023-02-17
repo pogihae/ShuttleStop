@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gachon.algorithm.HelpController">
+    <VBox alignment="CENTER" prefHeight="600.0" prefWidth="714.0" style="-fx-background-color: #FF8C00;">
+      <TextArea prefHeight="385.0" prefWidth="205.0" text="1st. Bring a map picture to the program.&#10;&#10;2nd.Make nodes which means buildings on the map by mouse-click. &#10;&#10;3rd. Make edges between the nodes. &#10;      : Click a node and click the next node to connect. &#10;&#10;4th. Click 'Done’ button -&gt; It makes each group of near node.  &#10;&#10;5th. Click ‘Next’ button -&gt; It shows the most efficient route. &#10;&#10;6th. Click ‘Play’ button -&gt; You can see Moodang Bus moving.&#10;&#10;7th. Click 'End’ button -&gt; It shows the total travel distance of the route.&#10;&#10;&#10;&#10;&#10;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+        <Pane prefHeight="50.0" prefWidth="300.0" />
+        <Button fx:id="btnBack" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="46.0" prefWidth="102.0" text="Back" />
+    </VBox>
+   <VBox alignment="CENTER" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #FF8C00;">
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@image/그림1.png"/>
+         </ImageView>
+         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@image/그림2.png"/>
+         </ImageView>
+         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@image/그림3.png"/>
+         </ImageView>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@image/그림4.png"/>
+         </ImageView>
+         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@image/그림5.png"/>
+         </ImageView>
+         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@image/그림6.png"/>
+         </ImageView>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@image/그림7.png"/>
+         </ImageView>
+         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@image/그림8.png"/>
+         </ImageView>
+         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@image/그림9.png"/>
+         </ImageView>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <ImageView fitHeight="136.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@image/그림10.png"/>
+         </ImageView>
+         <Pane prefHeight="150.0" prefWidth="34.0"/>
+         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@image/ladybug.png"/>
+         </ImageView>
+         <Pane prefHeight="150.0" prefWidth="50.0"/>
+      </HBox>
+   </VBox>
+</HBox>
